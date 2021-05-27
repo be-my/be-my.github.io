@@ -1,0 +1,12 @@
+---
+layout: none
+---
+[{% for post in site.posts %}{% if post.type == 'blog' %}
+{
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.categories }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "https://aquilax.aquastellar.io{{ post.url }}",
+      "date"     : "{{ post.date }}"
+}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+]

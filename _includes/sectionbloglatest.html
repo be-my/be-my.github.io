@@ -1,0 +1,34 @@
+<section class="latest-blogs">
+    <div class="container">
+        <h2 class="f20 bold"> LATEST IN OUR BLOG</h2>
+        <div class="latest-blogs-grid owl-carousel owl-theme latestblogsCarosuel"> 
+            {% for post in site.posts %}{% if post.type == 'blog' %}
+
+            <a href="https://aquilax.aquastellar.io{{ post.url }}" class="blog-item">
+                <img data-lazy="{% if post.pageimage %}{{ post.pageimage }}
+{% else %}https://aquilax.aquastellar.io/images/pexels-pixabay-532192-1.jpg{% endif %}">
+                <h2 class="name" href="https://aquilaxinvest.com/why-sustainable-stocks-are-likely-to-outperform-in-the-next-decade-and-beyond/">{{ post.title | escape }}</h2> 
+    <span class="underlineURL"> Read more </span>
+      
+            </a>
+{% unless forloop.last %}{% endunless %}{% endif %}{% endfor %}
+            
+            <!--
+            <a href="https://aquilaxinvest.com/why-sustainable-stocks-are-likely-to-outperform-in-the-next-decade-and-beyond/" class="blog-item"> 
+                <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/09/pexels-pixabay-532192-1.jpg">
+                <h2 class="name" href="https://aquilaxinvest.com/why-sustainable-stocks-are-likely-to-outperform-in-the-next-decade-and-beyond/"> Why sustainable stocks are likely to outperform in the next decade and beyond</h2> 
+                <span class="underlineURL"> Read more </span> </a> 
+            <a href="https://aquilaxinvest.com/climate-crisis-citizens-consumers/" class="blog-item"> 
+                <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/09/climate-crisis-consumers-citizens-1.jpg">
+                <h2 class="name" href="https://aquilaxinvest.com/climate-crisis-citizens-consumers/"> Facing the climate crisis as Citizens, not Consumers</h2>
+                <span class="underlineURL"> Read more </span> </a> 
+            <a href="https://aquilaxinvest.com/the-era-of-planetary-accountability/" class="blog-item"> 
+                <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/07/JCSeghers.jpg">
+                <h2 class="name" href="https://aquilaxinvest.com/the-era-of-planetary-accountability/"> The era of planetary accountability</h2>
+                <span class="underlineURL"> Read more </span> </a> 
+            <a href="https://aquilaxinvest.com/1500000-raised-in-aquilaxs-crowdfunding-campaign-heres-whats-next/" class="blog-item"> 
+                <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/07/aquilax-1_5Million-Blog2000px-min.jpg">
+                <h2 class="name" href="https://aquilaxinvest.com/1500000-raised-in-aquilaxs-crowdfunding-campaign-heres-whats-next/"> £1,500,000 raised in aquilax&#8217;s crowdfunding campaign: here&#8217;s what&#8217;s next</h2> 
+                <span class="underlineURL"> Read more </span> </a> 
+            <a href="https://aquilaxinvest.com/international-earth-day-6-climate-related-actions-from-uns-secretary-general/" class="blog-item"> 
+                <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/05/internationalearthday.jpg"><h2 class="name" href="https://aquilaxinvest.com/international-earth-day-6-climate-related-actions-from-uns-secretary-general/"> International Earth Day: 6 climate-related actions from UN&#8217;s Secretary-General</h2> <span class="underlineURL"> Read more </span> </a> <a href="https://aquilaxinvest.com/earth-day-2020-invest-in-our-planet-invest-in-aquilax/" class="blog-item"> <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/05/person-holding-a-green-plant-1072824.jpg"><h2 class="name" href="https://aquilaxinvest.com/earth-day-2020-invest-in-our-planet-invest-in-aquilax/"> Earth Day 2020: Invest in our planet, invest in aquilax</h2> <span class="underlineURL"> Read more </span> </a> <a href="https://aquilaxinvest.com/un-sustainable-development-goals-how-to-support-them-while-working-from-home/" class="blog-item"> <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/04/UNsustainabledevelopmentgoals.jpg"><h2 class="name" href="https://aquilaxinvest.com/un-sustainable-development-goals-how-to-support-them-while-working-from-home/"> UN Sustainable Development Goals: how to support them while working from home</h2> <span class="underlineURL"> Read more </span> </a> <a href="https://aquilaxinvest.com/the-stark-similarities-between-covid-19-and-the-climate-crisis/" class="blog-item"> <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/04/covid-19.jpeg"><h2 class="name" href="https://aquilaxinvest.com/the-stark-similarities-between-covid-19-and-the-climate-crisis/"> The stark similarities between Covid-19 and the climate crisis</h2> <span class="underlineURL"> Read more </span> </a> <a href="https://aquilaxinvest.com/3-critical-takeaways-from-davos-2020-and-predictions-for-2021/" class="blog-item"> <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/04/davos2021.jpg"><h2 class="name" href="https://aquilaxinvest.com/3-critical-takeaways-from-davos-2020-and-predictions-for-2021/"> 3 critical takeaways from Davos 2020 and predictions for 2021</h2> <span class="underlineURL"> Read more </span> </a> <a href="https://aquilaxinvest.com/fragile-earth-an-astronauts-view-from-space/" class="blog-item"> <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/04/ProtecttheEarth.jpg"><h2 class="name" href="https://aquilaxinvest.com/fragile-earth-an-astronauts-view-from-space/"> Fragile Earth: an astronaut&#8217;s view from space</h2> <span class="underlineURL"> Read more </span> </a> <a href="https://aquilaxinvest.com/living-sustainably-4-areas-where-you-can-have-an-impact/" class="blog-item"> <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2019/11/image-asset.jpeg"><h2 class="name" href="https://aquilaxinvest.com/living-sustainably-4-areas-where-you-can-have-an-impact/"> Living sustainably: 4 areas where you can have an impact</h2> <span class="underlineURL"> Read more </span> </a> <a href="https://aquilaxinvest.com/retail-needs-a-mission-possible-to-create-a-sustainable-future/" class="blog-item"> <img data-lazy="https://aquilaxinvest.com/wp-content/uploads/2020/04/image001.jpg"><h2 class="name" href="https://aquilaxinvest.com/retail-needs-a-mission-possible-to-create-a-sustainable-future/"> Retail needs a &#8211; “Mission Possible” &#8211; to create a sustainable future</h2> <span class="underlineURL"> Read more </span> </a>--></div></div></section>
