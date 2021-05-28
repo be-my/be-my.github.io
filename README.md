@@ -199,16 +199,16 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Infinity-ID/Infinity-ID.github.io.svg?style=for-the-badge
-[contributors-url]: https://github.com/Infinity-ID/Infinity-ID.github.io/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Infinity-ID/Infinity-ID.github.io.svg?style=for-the-badge
-[forks-url]: https://github.com/Infinity-ID/Infinity-ID.github.io/network/members
-[stars-shield]: https://img.shields.io/github/stars/Infinity-ID/Infinity-ID.github.io.svg?style=for-the-badge
-[stars-url]: https://github.com/Infinity-ID/Infinity-ID.github.io/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Infinity-ID/Infinity-ID.github.io.svg?style=for-the-badge
-[issues-url]: https://github.com/Infinity-ID/Infinity-ID.github.io/issues
-[license-shield]: https://img.shields.io/github/license/Infinity-ID/Infinity-ID.github.io.svg?style=for-the-badge
-[license-url]: https://github.com/Infinity-ID/Infinity-ID.github.io/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/be-my/be-my.github.io.svg?style=for-the-badge
+[contributors-url]: https://github.com/be-my/be-my.github.io/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/be-my/be-my.github.io.svg?style=for-the-badge
+[forks-url]: https://github.com/be-my/be-my.github.io/network/members
+[stars-shield]: https://img.shields.io/github/stars/be-my/be-my.github.io.svg?style=for-the-badge
+[stars-url]: https://github.com/be-my/be-my.github.io/stargazers
+[issues-shield]: https://img.shields.io/github/issues/be-my/be-my.github.io.svg?style=for-the-badge
+[issues-url]: https://github.com/be-my/be-my.github.io/issues
+[license-shield]: https://img.shields.io/github/license/be-my/be-my.github.io.svg?style=for-the-badge
+[license-url]: https://github.com/be-my/be-my.github.io/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: assets/img/generic/dashboard-alt2.png
