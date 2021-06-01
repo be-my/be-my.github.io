@@ -31,7 +31,7 @@
     <img src="images/logo2.png" alt="Logo" width="192" height="78">
   </a>
 
-  <h3 align="center">Be My_</h3>
+ <!-- <h3 align="center">Be My_</h3>-->
 
   <p align="center">
     Welcome to the pages of our platform!
