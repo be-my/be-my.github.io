@@ -82,7 +82,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://infinity-id.co.uk)
 
-There are many great reasons why we started using Github was manyly the cost, not only that being part of the open sourse community. Then we chose a new framework called jekyll along with our custom made restful API.
+Be My_ is a suite of apps and chatbots that are desided to help every user with such things as Mental Health, Fisikel Heath, and general well being. Using technoliges like Augrmented Realty, Machine Learning and Artificial intelligence.   
+<!--There are many great reasons why we started using Github was manyly the cost, not only that being part of the open sourse community. Then we chose a new framework called jekyll along with our custom made restful API.-->
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
