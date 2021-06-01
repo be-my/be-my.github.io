@@ -31,7 +31,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Infinity-ID.co.uk</h3>
+  <h3 align="center">Be My_</h3>
 
   <p align="center">
     Welcome to the pages of our platform!
