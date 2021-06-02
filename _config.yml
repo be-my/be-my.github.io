@@ -205,7 +205,6 @@ pages_list:
 
 # Exclusion list from the generated _site
 
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
 # Pagination path
 
@@ -216,9 +215,7 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-sass:
-  style: compressed
-
+    
 gems:
   - jekyll-feed
   - jekyll-sitemap
@@ -240,7 +237,6 @@ url: https://be-my.github.io
 encoding: UTF-8
 # permalink: /:title/
 permalink: /:title.html
-paginate: 5
 paginate_path: "/blog/page/:num/"
 media_folder: "/img/galleries/gallery-standard-post"
 
@@ -281,7 +277,7 @@ sidebar_options:
 
 # File Handling
 # include: [_pages]
-exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json]
+exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json, "LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
 # Plugins
 gems:
