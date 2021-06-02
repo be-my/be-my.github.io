@@ -2,8 +2,8 @@
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
-
-
+logo: "images/logo1.png"
+url: "https://be-my.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,7 +12,7 @@
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: "https://be-my.github.io"
+baseurl: 
 
 # Google tracking id
 
@@ -85,7 +85,6 @@ me-img: "/img/jetpacktocat.png"
 ##############################
 color-browser: "#000000"
 apple-status-bar-style: "black"
-logo: "images/logo1.png"
 
 ################
 # Web app mode #
@@ -234,7 +233,9 @@ compress_html:
 
 
 # Site Settings
-url: https://be-my.github.io
+title: Justin Grierson
+description: A Jekyll Based Shopping Cart Built with simpleCart(js)
+url:
 
 # Jekyll Configuration
 encoding: UTF-8
