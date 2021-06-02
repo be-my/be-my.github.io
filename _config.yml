@@ -1,10 +1,10 @@
 <<<<<<< HEAD
 
-# Site settings
+# Site settings 
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://justingrierson.github.io"
+url: "https://be-my.github.io"
 
 name: "Justin's Blog"
 
@@ -17,7 +17,7 @@ smallimage: "/img/tinyauthor1.jpg"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: "https://ju3tin.github.io"
+baseurl: "https://be-my.github.io"
 
 # Google tracking id
 
@@ -320,7 +320,7 @@ gems: [jekyll-paginate]
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://justingrierson.github.io"
+url: "https://be-my.github.io"
 
 name: "Justin's Blog"
 
@@ -333,7 +333,7 @@ smallimage: "/img/tinyauthor1.jpg"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: "https://ju3tin.github.io"
+baseurl: "https://be-my.github.io"
 
 # Google tracking id
 
