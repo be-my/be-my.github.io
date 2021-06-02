@@ -3,7 +3,7 @@ layout: posts
 tags: ["dude", "jekyll"]
 title:  "Meeting 1"
 type: blog
-author: AquilaX Team
+author: Be My_Team
 date:   2020-11-11 20:07:22
 pageimage: /images/how-to-start-investing-1-1.jpg
 categories: ["programming", "jekyll"]
