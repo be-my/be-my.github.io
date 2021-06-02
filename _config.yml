@@ -3,6 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 logo: "images/logo1.png"
+logo1: "images/logoa.svg"
 url: "https://be-my.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
